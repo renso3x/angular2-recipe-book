@@ -1,0 +1,6 @@
+<div class="row">
+	<h1>Check this parameters</h1>
+	{{ id }}
+	<button (click)="onNavigate()">Query params</button>
+	<a [routerLink]="['/user']" [queryParams]="{'user': 500}">Go to Users</a>
+</div>
